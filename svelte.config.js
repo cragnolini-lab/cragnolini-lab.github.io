@@ -11,10 +11,10 @@ export default {
 			precompress: false,
 			strict: true
 		}),
-		paths: {
-			base: process.argv.includes('dev') ? '' : "/cragnolini-lab"
-			//base: process.env.NODE_ENV === "production" ? "/sveltekit-gh-pages" : "",
-		},
+		//paths: {
+		//	base: process.argv.includes('dev') ? '' : ""
+		//	//base: process.env.NODE_ENV === "production" ? "/sveltekit-gh-pages" : "",
+		//},
 	}
 };
 

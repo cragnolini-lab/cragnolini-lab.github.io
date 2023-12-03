@@ -1,5 +1,4 @@
 <script>
-	import { base } from '$app/paths';
 	import github from '$lib/images/github.svg';
 </script>
 
@@ -9,8 +8,8 @@
 	<!-- dummy -->
 	</div>
 	<nav>
-		<a href="{base}/">Home</a>
-		<a href="{base}/research">Research</a>
+		<a href="./">Home</a>
+		<a href="./research">Research</a>
 		<a href="./people">People</a>
 		<br>
 	</nav>
