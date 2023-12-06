@@ -6,10 +6,23 @@
 <h1>Our research</h1>
 
 <div class="projects">
-<Tile />
-<Tile />
-<Tile />
-<Tile />
+	<Tile
+		title="Contact prediction with deep learning in flexible proteins"
+		summary="We build models to predict contact between distant sites in proteins."
+	/>
+	<Tile
+		title="Hierarchical coarse-grain modelling"
+		summary="we investigate how coarse-grain mappings at different resolutions relate to one another and run simulations on biomolecular systems using those simplified models."
+		link="https://github.com/gwhite11/hgvae"
+	/>
+	<Tile
+		title="Conformational sampling of protein structure prediction"
+		summary="We develop statistical models to improve the sampling of alternative conformational states in protein structure prediction pipelines."
+	/>
+	<Tile
+		title="Flexible fitting for cryo-EM"
+		summary="We develop statistical models to represent the relation between structural variations in biomolecular complexes and the observed cryo-EM density."
+	/>
 </div>
 
 Computational biophysics at <a href="https://www.bbk.ac.uk/">Birkbeck, University of London.</a>
