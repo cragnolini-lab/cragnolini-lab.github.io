@@ -1,18 +1,26 @@
+<script>
+	import github from '$lib/images/github.svg';
+
+	export let title = "Title";
+	export let summary = "A short summary of this tile.";
+	export let link = "";
+</script>
+
 <section class="tile">
 	<header>
 		<h1>
-			<slot name="title">
-				Title
-			</slot>
+			{title}
 		</h1>
 	</header>
-	<slot name="summary">
-		A short summary of this tile.
-	</slot>
+
+	{summary}
+
 	<footer>
-		<slot name="link">
-			See more at...
-		</slot>
+		{#if link != ""}
+		<a href={link}>
+			<img src={github} alt="GitHub" height="20vh" />
+		</a>
+		{/if}
 	</footer>
 </section>
 
