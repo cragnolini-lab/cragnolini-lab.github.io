@@ -13,7 +13,6 @@
 	<Tile
 		title="Hierarchical coarse-grain modelling"
 		summary="we investigate how coarse-grain mappings at different resolutions relate to one another and run simulations on biomolecular systems using those simplified models."
-		link="https://github.com/gwhite11/hgvae"
 	/>
 	<Tile
 		title="Conformational sampling of protein structure prediction"
