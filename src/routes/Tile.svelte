@@ -1,9 +1,11 @@
 <script>
-	import github from '$lib/images/github.svg';
+	import Github from './Github.svelte';
+	import Link from './Link.svelte';
 
 	export let title = "Title";
 	export let summary = "A short summary of this tile.";
 	export let link = "";
+	export let source = "";
 </script>
 
 <section class="tile">
@@ -16,11 +18,17 @@
 	{summary}
 
 	<footer>
-		{#if link != ""}
+		{#if link}
 		<a href={link}>
-			<img src={github} alt="GitHub" height="20vh" />
+			<Link />
 		</a>
 		{/if}
+		{#if source}
+		<a href={source}>
+			<Github />
+		</a>
+		{/if}
+
 	</footer>
 </section>
 

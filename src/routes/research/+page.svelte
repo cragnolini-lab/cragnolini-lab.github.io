@@ -9,6 +9,7 @@
 	<Tile
 		title="Contact prediction with deep learning in flexible proteins"
 		summary="We build models to predict contact between distant sites in proteins."
+		source="https://github.com/namagno/contact-prediction"
 	/>
 	<Tile
 		title="Hierarchical coarse-grain modelling"

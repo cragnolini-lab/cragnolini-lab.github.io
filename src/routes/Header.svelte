@@ -1,5 +1,5 @@
 <script>
-	import github from '$lib/images/github.svg';
+	import Github from './Github.svelte';
 </script>
 
 
@@ -15,6 +15,6 @@
 	</nav>
 
 	<a href="https://github.com/cragnolini-lab">
-	<img src={github} alt="GitHub" />
+	<Github />
 	</a>
 </header>
