@@ -34,7 +34,6 @@
 
 <style>
 .tile {
-	//display: flex;
 	background-color: rgba(0, 0, 0, 0.1);
 	padding: 32px;
 	border-radius: 8px;
