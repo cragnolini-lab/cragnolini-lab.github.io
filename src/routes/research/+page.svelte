@@ -7,21 +7,16 @@
 
 <div class="projects">
 	<Tile
-		title="Contact prediction with deep learning in flexible proteins"
-		summary="We build models to predict contact between distant sites in proteins."
-		source="https://github.com/namagno/contact-prediction"
+		title="Understand dynamic ensembles of biomolecular assemblies"
+		summary="Use methods that inherently represent ensembles of models."
 	/>
 	<Tile
-		title="Hierarchical coarse-grain modelling"
-		summary="we investigate how coarse-grain mappings at different resolutions relate to one another and run simulations on biomolecular systems using those simplified models."
+		title="Cellular-scale molecular dynamics"
+		summary="Develop novel methods to tackle large assemblies."
 	/>
 	<Tile
-		title="Conformational sampling of protein structure prediction"
-		summary="We develop statistical models to improve the sampling of alternative conformational states in protein structure prediction pipelines."
-	/>
-	<Tile
-		title="Flexible fitting for cryo-EM"
-		summary="We develop statistical models to represent the relation between structural variations in biomolecular complexes and the observed cryo-EM density."
+		title="Integrated biophysical modelling: end-to-end representations"
+		summary="Integrate representation of biophysical experiment in data modelling."
 	/>
 </div>
 
@@ -31,7 +26,7 @@ Computational biophysics at <a href="https://www.bbk.ac.uk/">Birkbeck, Universit
 <style>
 .projects {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
 	gap: 32px;
 }
 </style>
