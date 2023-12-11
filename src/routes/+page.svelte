@@ -12,7 +12,7 @@
 </p>
 
 <p>
-	A central question we are trying to answer is how the presence of spatial and temporal ensembles can be represented theoretically, and incorporated in the interpretation of experimental data..
+	A central question we are trying to answer is how the presence of spatial and temporal ensembles can be represented theoretically, and incorporated in the interpretation of experimental data.
 </p>
 
 <p>
