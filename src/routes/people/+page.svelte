@@ -1,3 +1,6 @@
+<script>
+	import Github from '../Github.svelte';
+</script>
 <main>
 <h1>Members of the lab</h1>
 
@@ -12,7 +15,8 @@
 		Arek Wylegalski
 	</li>
 	<li>
-		Anuregah Erlaut
+		<a href="https://www.linkedin.com/in/anugerah-erlaut">Anuregah Erlaut</a>
+		<a href="https://www.github.com/aerlaut"><Github /></a>
 	</li>
 </ul>
 
@@ -20,7 +24,7 @@
 
 <ul>
 	<li>
-		Neil Anthony Magno
+		<a href="https://www.linkedin.com/in/neil-magno/">Neil Anthony Magno</a>
 	</li>
 </ul>
 
