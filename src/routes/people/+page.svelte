@@ -15,7 +15,7 @@
 		Arek Wylegalski
 	</li>
 	<li>
-		<a href="https://www.linkedin.com/in/anugerah-erlaut">Anuregah Erlaut</a>
+		<a href="https://www.linkedin.com/in/anugerah-erlaut">Anugerah Erlaut</a>
 		<a href="https://www.github.com/aerlaut"><Github /></a>
 	</li>
 </ul>
