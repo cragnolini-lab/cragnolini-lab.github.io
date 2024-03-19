@@ -12,6 +12,9 @@
 		Alison Faid
 	</li>
 	<li>
+		Magan Buchanan
+	</li>
+	<li>
 		Arek Wylegalski
 	</li>
 	<li>
