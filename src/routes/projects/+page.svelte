@@ -3,7 +3,7 @@
 </script>
 
 <main>
-<h1>Our research</h1>
+<h1>Our projects</h1>
 
 <div class="projects">
 	<Tile
@@ -28,7 +28,6 @@ and run molecular dynamics simulations using these simplified models with the ai
 	/>
 </div>
 
-Computational biophysics at <a href="https://www.bbk.ac.uk/">Birkbeck, University of London.</a>
 </main>
 
 <style>
