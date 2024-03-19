@@ -4,6 +4,7 @@
 
 	export let title = "Title";
 	export let summary = "A short summary of this tile.";
+	export let details= "";
 	export let link = "";
 	export let source = "";
 </script>
@@ -15,7 +16,14 @@
 		</h1>
 	</header>
 
-	{summary}
+	{#if details}
+	<details>
+		<summary>{summary}</summary>
+		<p>{details}</p>
+	</details>
+	{:else}
+		{summary}
+	{/if}
 
 	<footer>
 		{#if link}
